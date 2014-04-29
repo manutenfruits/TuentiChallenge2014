@@ -1,0 +1,376 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 101.0,
+		"selected_items":
+		[
+			[
+				"save as",
+				"Project: Save As"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			]
+		],
+		"width": 277.0
+	},
+	"console":
+	{
+		"height": 103.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/run/media/manutenfruits/CD8E-B48C/apps/usbloader_gx/GXGlobal.cfg",
+		"/run/media/manutenfruits/CD8E-B48C/apps/usbloader_gx/meta.xml",
+		"/home/manutenfruits/workspace/parthay/public/desktop/js/app.js",
+		"/home/manutenfruits/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/manutenfruits/workspace/parthay/public/common/scss/fonts.scss",
+		"/home/manutenfruits/workspace/parthay/public/desktop/manifest.json",
+		"/home/manutenfruits/workspace/parthay/public/desktop/partials/modals",
+		"/home/manutenfruits/workspace/parthay/public/desktop/js/directives.js",
+		"/home/manutenfruits/workspace/parthay/public/desktop/js/services.js",
+		"/home/manutenfruits/workspace/parthay/public/desktop/dist/bootstrap.css",
+		"/home/manutenfruits/workspace/parthay/public/desktop/js/mediagalleries.js",
+		"/home/manutenfruits/workspace/parthay/public/desktop/components/angular-indexedDB/src/indexeddb.js",
+		"/home/manutenfruits/workspace/parthay/public/desktop/background.js",
+		"/home/manutenfruits/workspace/parthay/public/desktop/scss/main.scss",
+		"/home/manutenfruits/workspace/parthay/public/common/scss/vars.scss",
+		"/home/manutenfruits/workspace/parthay/public/desktop/js/controllers.js",
+		"/home/manutenfruits/workspace/parthay/public/desktop/dist/flat-ui.css",
+		"/home/manutenfruits/workspace/parthay/parthay.sublime-project",
+		"/home/manutenfruits/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/manutenfruits/workspace/parthay/app.js",
+		"/home/manutenfruits/workspace/parthay/.gitignore",
+		"/home/manutenfruits/workspace/parthay/public/mobile/scss/main.scss",
+		"/home/manutenfruits/workspace/parthay/public/mobile/index.html",
+		"/home/manutenfruits/workspace/parthay/gulpfile.js",
+		"/home/manutenfruits/workspace/parthay/public/desktop/scss/main.css",
+		"/home/manutenfruits/workspace/parthay/public/common/scss",
+		"/home/manutenfruits/workspace/parthay/public/desktop/dist/index.css",
+		"/home/manutenfruits/workspace/parthay/public/desktop/scss/index.scss",
+		"/home/manutenfruits/workspace/parthay/node_modules/gulp-sass/index.js",
+		"/home/manutenfruits/workspace/parthay/public/desktop/scss/index.css",
+		"/home/manutenfruits/workspace/parthay/public/mobile/dist/main.css",
+		"/home/manutenfruits/workspace/parthay/public/desktop/scss/_index.scss",
+		"/home/manutenfruits/workspace/parthay/public/desktop/scss/vars.scss",
+		"/home/manutenfruits/workspace/parthay/public/desktop/index.html",
+		"/home/manutenfruits/workspace/parthay/package.json",
+		"/home/manutenfruits/workspace/parthay/public/desktop/css/main.css",
+		"/home/manutenfruits/workspace/parthay/public/mobile/bower.json",
+		"/home/manutenfruits/workspace/parthay/public/desktop/css/normalize.css",
+		"/home/manutenfruits/workspace/parthay/public/desktop/bower.json",
+		"/home/manutenfruits/workspace/parthay/public/mobile/css/mobile-nav.css",
+		"/home/manutenfruits/workspace/parthay/public/mobile/css/font-awesome.css",
+		"/home/manutenfruits/workspace/parthay/public/mobile/js/lib/mobile-nav.js",
+		"/home/manutenfruits/workspace/parthay/public/desktop/js/lib/indexeddb.js",
+		"/home/manutenfruits/workspace/parthay/public/parthay/index.html",
+		"/home/manutenfruits/workspace/parthay/public/parthay/.bowerrc",
+		"/home/manutenfruits/workspace/parthay/public/mobile/js/app.js",
+		"/home/manutenfruits/workspace/parthay/public/mobile/js/mobile-nav.js",
+		"/home/manutenfruits/workspace/parthay/public/mobile/components/angular/angular.js",
+		"/home/manutenfruits/workspace/parthay/public/mobile/components/sizzle/.bower.json",
+		"/home/manutenfruits/workspace/parthay/public/mobile/components/socket.io/index.js",
+		"/home/manutenfruits/workspace/parthay/public/mobile/.bowerrc"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 89.0,
+		"where_history":
+		[
+			"/home/manutenfruits/workspace/parthay/public/desktop",
+			"/home/manutenfruits/workspace/parthay/public/desktop/js",
+			"/home/manutenfruits/workspace/parthay/public/desktop",
+			"/home/manutenfruits/workspace/parthay/public/mobile/components",
+			"/home/manutenfruits/workspace/parthay/public/mobile/js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Lato",
+			"lato",
+			"types",
+			"modal",
+			"overlay",
+			"msg",
+			"chrome.storage.local",
+			"chrome",
+			"chrome.storage.local",
+			"localStore",
+			"chrome",
+			"localStorage",
+			"modal",
+			"mediaGalleries",
+			"goTo('#/' + {{src}}",
+			"{{src}}",
+			"#/{{src}}",
+			"(#/{{src}}/",
+			"#/{{src}}",
+			"href",
+			"768",
+			"1024",
+			"	deleted:    ",
+			"chrome.store.local",
+			"chrome.storage.local",
+			"localStore",
+			"localStorage",
+			"localStore",
+			"storage",
+			"localStorage",
+			"localSto",
+			"storage",
+			"localStorage",
+			"SOURCE_URL",
+			"lato",
+			"fonts.google.com",
+			"modified",
+			"deleted",
+			"#7f8c8d",
+			"7f8c8d",
+			"#bdc3c7",
+			"bdc3c7",
+			"#c0392b",
+			"c0392b",
+			"$pumpkin: #d35400;\n",
+			"f39c12",
+			"#95a5a6",
+			"95a5a6",
+			"#ecf0f1",
+			"e74c3c",
+			"e67e22",
+			"f1c40f",
+			"2c3e50",
+			"8e44ad",
+			"#2980b9",
+			"2980b9",
+			"27ae60",
+			"16a085",
+			"#34495e",
+			"#3498db",
+			"3498db",
+			"2ecc71",
+			"#1abc9c",
+			".main-header",
+			".sources-add",
+			"2980b9",
+			"watch",
+			"orig",
+			"path",
+			"	deleted:    ",
+			"7f8c8d",
+			"#bdc3c7",
+			"bdc3c7",
+			"c0392b",
+			"d35400",
+			"f39c12",
+			"#95a5a6",
+			"#ecf0f1",
+			"#e74c3c",
+			"e74c3c",
+			"e67e22",
+			"f1c40f",
+			"e67e22",
+			"f1c40f",
+			"#2c3e50",
+			"2c3e50",
+			"8e44ad",
+			"#2980b9",
+			"27ae60",
+			"#16a085",
+			"34495e",
+			"emerald",
+			"#34495e",
+			"#9b59b6",
+			"#3498db",
+			"#2ecc71",
+			"2ecc71",
+			"#1abc9c",
+			"data-clipboard-text=",
+			"css",
+			"bootstra",
+			"	deleted:    ",
+			"public",
+			"	deleted:    ",
+			"TODO",
+			"parthay",
+			"$routeProvider"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"storage",
+			"chrome.storage.local",
+			"$green-sea",
+			"$wet-asphalt",
+			"$amethyst",
+			"$peter-river"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Tuenti Challenge 2014.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"media",
+				"Desktop/js/mediagalleries.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

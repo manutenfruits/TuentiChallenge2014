@@ -1,0 +1,16 @@
+{
+  "name": "Challenge1",
+  "version": "0.0.0",
+  "description": "Solution for Challenge 1 of Tuenti Contest 2014",
+  "main": "test1.js",
+  "dependencies": {
+    "q": "^1.0.1",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manuel Díez Frutos",
+  "license": "ISC"
+}
