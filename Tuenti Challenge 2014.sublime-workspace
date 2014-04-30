@@ -4,22 +4,46 @@
 		"selected_items":
 		[
 			[
-				"process",
-				"processInput"
+				"last",
+				"lastTrack"
 			],
 			[
-				"get",
-				"getSolution"
+				"read",
+				"readFile"
+			],
+			[
+				"create",
+				"createReadStream"
+			],
+			[
+				"proces",
+				"processInput"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "test5/test5.js",
+			"file": "test6/test6.js",
 			"settings":
 			{
-				"buffer_size": 1501,
+				"buffer_size": 1401,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test6/client.js",
+			"settings":
+			{
+				"buffer_size": 1326,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test6/server.js",
+			"settings":
+			{
+				"buffer_size": 1648,
 				"line_ending": "Unix"
 			}
 		}
@@ -27,12 +51,16 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 167.0,
+		"height": 211.0,
 		"selected_items":
 		[
 			[
-				"jshint",
-				"JSHint: Set Linting Preferences"
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
 			],
 			[
 				"save as",
@@ -55,10 +83,6 @@
 				"Set Syntax: JavaScript"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"rein",
 				"Indentation: Reindent Lines"
 			],
@@ -71,10 +95,6 @@
 				"Pretty JSON: Reformat (Pretty Print) JSON"
 			],
 			[
-				"spaces",
-				"Indentation: Convert to Spaces"
-			],
-			[
 				"javasc",
 				"Set Syntax: JavaScript"
 			],
@@ -83,7 +103,7 @@
 				"Set Syntax: SCSS"
 			]
 		],
-		"width": 561.0
+		"width": 498.0
 	},
 	"console":
 	{
@@ -104,26 +124,17 @@
 	},
 	"file_history":
 	[
-		"/home/manutenfruits/workspace/tuenti/test4/test4.js",
-		"/home/manutenfruits/workspace/tuenti/test5/input",
+		"/home/manutenfruits/workspace/tuenti/test6/messages.json",
+		"/home/manutenfruits/workspace/tuenti/test6/client.js",
+		"/home/manutenfruits/workspace/tuenti/test6/package.json",
+		"/home/manutenfruits/workspace/tuenti/test6/test6.js",
+		"/home/manutenfruits/workspace/tuenti/test5/test5.js",
 		"/home/manutenfruits/workspace/tuenti/test5/package.json",
-		"/home/manutenfruits/workspace/tuenti/test4/dijkstra/graph.js",
-		"/home/manutenfruits/workspace/tuenti/test4/package.json",
-		"/home/manutenfruits/workspace/tuenti/test5/test4.tar.gz",
-		"/home/manutenfruits/workspace/tuenti/test4/test_challenge",
-		"/home/manutenfruits/workspace/tuenti/test4/input",
-		"/home/manutenfruits/workspace/tuenti/test3/test_challenge",
-		"/home/manutenfruits/workspace/tuenti/test4/test3.tar.gz",
-		"/home/manutenfruits/workspace/tuenti/test3/package.json",
-		"/home/manutenfruits/workspace/tuenti/sandbox/results.csv",
-		"/home/manutenfruits/workspace/tuenti/sandbox/main.js",
-		"/home/manutenfruits/workspace/tuenti/test3/test3.js",
-		"/home/manutenfruits/workspace/tuenti/sandbox/results",
-		"/home/manutenfruits/workspace/tuenti/.jshintrc",
-		"/home/manutenfruits/workspace/tuenti/.gitignore",
+		"/home/manutenfruits/workspace/tuenti/test5/input",
 		"/home/manutenfruits/workspace/tuenti/test2/test2.js",
-		"/home/manutenfruits/workspace/tuenti/test2/package.json",
-		"/home/manutenfruits/.config/sublime-text-3/Packages/JSHint Gutter/.jshintrc",
+		"/home/manutenfruits/workspace/tuenti/test1/input.txt",
+		"/home/manutenfruits/workspace/tuenti/test1/test1.js",
+		"/home/manutenfruits/workspace/tuenti/test1/log",
 		"/run/media/manutenfruits/CD8E-B48C/apps/usbloader_gx/GXGlobal.cfg",
 		"/run/media/manutenfruits/CD8E-B48C/apps/usbloader_gx/meta.xml",
 		"/home/manutenfruits/workspace/parthay/public/desktop/js/app.js",
@@ -197,31 +208,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"x",
-			"                \n",
-			"c:",
-			"c",
-			"C",
-			"c",
-			"a",
-			"b",
-			"reachable",
-			"all",
-			"in",
-			"',",
-			"0",
-			"chunk",
-			"map",
-			"paint",
+			"console.log(sent);",
 			"console.log",
-			"x",
-			"dir%2",
-			"var i",
-			"i",
-			"map[p.y][p.x]",
-			"vertBound",
-			"pos[1]",
-			"pos[0]",
+			"map",
+			"nextGen",
+			"lastTrack",
+			"direction",
+			"position",
+			"input",
+			"F,25,Molecular Biology,2",
+			"std",
+			"std1",
+			"sliced",
 			"Lato",
 			"lato",
 			"types",
@@ -324,7 +322,11 @@
 			"css",
 			"bootstra",
 			"	deleted:    ",
-			"public"
+			"public",
+			"	deleted:    ",
+			"TODO",
+			"parthay",
+			"$routeProvider"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -353,33 +355,95 @@
 			[
 				{
 					"buffer": 0,
-					"file": "test5/test5.js",
+					"file": "test6/test6.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1501,
+						"buffer_size": 1401,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								740,
-								740
+								1389,
+								1389
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Monokai.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 273.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test6/client.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								518,
+								518
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 39.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "test6/server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1058,
+								1058
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -402,11 +466,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -440,15 +511,11 @@
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"selected_items":
 		[
-			[
-				"",
-				"~/workspace/onefront-smartphone/OneFront.sublime-project"
-			]
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"select_symbol":
 	{
