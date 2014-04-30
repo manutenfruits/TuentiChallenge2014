@@ -1,7 +1,7 @@
 {
-  "name": "Challenge1",
+  "name": "Challenge2",
   "version": "0.0.0",
-  "description": "Solution for Challenge 1 of Tuenti Contest 2014",
+  "description": "Solution for Challenge 2 of Tuenti Contest 2014",
   "main": "test1.js",
   "dependencies": {
     "q": "^1.0.1",

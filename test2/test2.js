@@ -9,15 +9,13 @@
   */
 
 var readline = require('readline'),
-    fs = require('fs'),
-    stream = require('stream'),
     _ = require('underscore'),
     Q = require('q');
 
 var askInput = function () {
     var dfd = Q.defer();
 
-    rl = readline.createInterface({
+    var rl = readline.createInterface({
         input: process.stdin,
         output: process.stdout
     });
@@ -30,48 +28,62 @@ var askInput = function () {
 };
 
 var main = function (input) {
-    var pos = [1, 1],
+    var p = {
+            x: 0,
+            y: 0
+        },
         map = [],
         success = true,
-        vertBound = 0,
-        dir = 1,
-        lastTrack,
-        followMap;
+        dir = 1;
     /*
      * Direction: U R D L
      * Value:     0 1 2 3
      */
 
     var advance = function (){
+        var i;
+
         switch(dir) {
-            case 0: pos[0]--; break;
-            case 1: pos[1]++; break;
-            case 2: pos[0]++; break;
-            case 3: pos[1]--; break;
+            case 0: p.y--; break;
+            case 1: p.x++; break;
+            case 2: p.y++; break;
+            case 3: p.x--; break;
         }
 
-        if (!map[pos[0]]) {
-            map[pos[0]] = new Array()
+        //shifting
+        if (p.x < 0) {
+            for (i = 0; i < map.length; i++) {
+                map[i].unshift(' ');
+            }
+            p.x = 0;
         }
-        if(pos[1] > vertBound){
-            vertBound = pos[1];
+        if (p.y < 0) {
+            map.unshift([]);
+            p.y = 0;
+        }
+        if (!map[p.y]) {
+            map[p.y] = [];
         }
     };
 
     var turn = function (right) {
         if (right) { // (/)
-            if ( dir%2 === 0 ) { //Vertical
+            if ( dir % 2 === 0 ) { //Vertical
                 dir = (dir + 1) % 4;
             } else { //Horizontal
                 dir = (dir - 1 +4) % 4;
             }
         } else { // (\)
-            if ( dir%2 === 0 ) { //Vertical
+            if ( dir % 2 === 0 ) { //Vertical
                 dir = (dir - 1 +4) % 4;
             } else { //Horizontal
                 dir = (dir + 1) % 4;
             }
         }
+    };
+
+    var paint = function (track) {
+        map[p.y][p.x] = track;
     };
 
     _.every(input, function (track) {
@@ -80,22 +92,22 @@ var main = function (input) {
         switch (track) {
             //Start
             case '#':
-                map[pos[0]][pos[1]] = track;
+                paint(track);
                 break;
             //Horizontal
             case '-':
                 if ( dir%2 === 0 ) { //Vertical
-                    map[pos[0]][pos[1]] = '|';
+                    paint('|');
                 } else { //Horizontal
-                    map[pos[0]][pos[1]] = '-';
+                    paint('-');
                 }
                 break;
             case '/':
-                map[pos[0]][pos[1]] = track;
+                paint(track);
                 turn(true); break;
             //Curve
             case '\\':
-                map[pos[0]][pos[1]] = track;
+                paint(track);
                 turn(false); break;
             //Fail
             default:
@@ -107,16 +119,17 @@ var main = function (input) {
     });
 
     //Print this!
-    var printed = _.map(map, function (v) {
-        var h = [],
-            i;
-        for(i = 0;i<v.length;i++){
-            h[i] = v[i] || ' ';
+    var i, j, printed = [];
+    for (i = 0; i < map.length; i++) {
+        var v = map[i],
+            h = [];
+        for (j = 0; j < v.length; j++) {
+            h[j] = v[j] || ' ';
         }
-        return h.join('');
-    }).join('\n');
+        printed.push(h.join(''));
+    }
 
-    console.log(printed);
+    console.log(printed.join('\n'));
 
 };
 
