@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"process",
+				"processInput"
+			],
+			[
 				"get",
 				"getSolution"
 			]
@@ -12,31 +16,15 @@
 	"buffers":
 	[
 		{
-			"file": "test3/test3.js",
+			"file": "test4/test4.js",
 			"settings":
 			{
-				"buffer_size": 1021,
+				"buffer_size": 1100,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sandbox/main.js",
-			"settings":
-			{
-				"buffer_size": 1426,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sandbox/results.csv",
-			"settings":
-			{
-				"buffer_size": 5302,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "test3/package.json",
+			"file": "test4/package.json",
 			"settings":
 			{
 				"buffer_size": 367,
@@ -124,6 +112,13 @@
 	},
 	"file_history":
 	[
+		"/home/manutenfruits/workspace/tuenti/test4/input",
+		"/home/manutenfruits/workspace/tuenti/test3/test_challenge",
+		"/home/manutenfruits/workspace/tuenti/test4/test3.tar.gz",
+		"/home/manutenfruits/workspace/tuenti/test3/package.json",
+		"/home/manutenfruits/workspace/tuenti/sandbox/results.csv",
+		"/home/manutenfruits/workspace/tuenti/sandbox/main.js",
+		"/home/manutenfruits/workspace/tuenti/test3/test3.js",
 		"/home/manutenfruits/workspace/tuenti/sandbox/results",
 		"/home/manutenfruits/workspace/tuenti/.jshintrc",
 		"/home/manutenfruits/workspace/tuenti/.gitignore",
@@ -203,6 +198,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"in",
 			"',",
 			"0",
 			"chunk",
@@ -347,24 +343,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "test3/test3.js",
+					"file": "test4/test4.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1021,
+						"buffer_size": 1100,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								390,
-								390
+								1013,
+								1013
 							]
 						],
 						"settings":
@@ -378,65 +374,6 @@
 						"translation.y": 78.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sandbox/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1426,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								214,
-								214
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Monokai.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sandbox/results.csv",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5302,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Monokai.tmTheme",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
 					"type": "text"
 				}
@@ -447,8 +384,8 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
-					"file": "test3/package.json",
+					"buffer": 1,
+					"file": "test4/package.json",
 					"semi_transient": false,
 					"settings":
 					{
@@ -459,8 +396,8 @@
 						"selection":
 						[
 							[
-								90,
-								90
+								367,
+								367
 							]
 						],
 						"settings":
@@ -474,7 +411,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

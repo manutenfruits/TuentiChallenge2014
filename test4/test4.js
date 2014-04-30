@@ -5,16 +5,19 @@
  */
 
  /**
-  * Delivery notes: 
+  * Delivery notes: dijkstra algorithm courtesy of 
+  * https://github.com/andrewhayward/dijkstra
   */
 
 var readline = require('readline'),
     _ = require('underscore'),
+    Graph = require('./dijkstra/graph'),
     Q = require('q');
 
 var askInput = function () {
-    var nrInputs, inputs, rl,
+    var orig, dest, rl,
         nrLine = 0,
+        allowed = [],
         dfd = Q.defer();
 
     rl = readline.createInterface({
@@ -24,32 +27,60 @@ var askInput = function () {
 
     rl.on('line', function(input) {
         if(nrLine === 0){
-            nrInputs = Number(input);
-            inputs = new Array(nrInputs - 1);
-        } else if (nrLine <= nrInputs) {
-            inputs[nrLine - 1] = processInput(input);
+            orig = input;
+        } else if (nrLine === 1) {
+            dest = input;
+        } else {
+            allowed.push(input);
         }
-        if (nrLine++ >= nrInputs) {
-            dfd.resolve(inputs);
-        }
+        nrLine++;
+    });
+
+    process.stdin.on('end', function() {
+        dfd.resolve([orig, dest, allowed]);
     });
 
     return dfd.promise;
 };
 
-var processInput = function (input){
-    return input.split(' ');
+var main = function (args) {
+    var orig = args[0],
+        dest = args[1],
+        allowed = args[2],
+        states = allowed.slice(0),
+        map;
+
+    states.push(orig, dest);
+
+    map = _.chain(states)
+        .map(function (state) {
+            var reach = {},
+                neighbors = _.without(states, state);
+
+            _.each(neighbors, function (neighbor) {
+                if (canTransition(state, neighbor)) {
+                    reach[neighbor] = 1;
+                }
+            });
+
+            return [state, reach];
+        }).object().value();
+
+    var graph = new Graph(map);
+    var solution = graph.findShortestPath(orig, dest);
+
+    console.log(solution.join('->'));
+
 };
 
-var magic = function (a, b) {
-    var result = Math.sqrt(a*a + b*b);
-    return Number(result.toFixed(2));
-};
-
-var main = function (inputs) {
-    _.each(inputs, function (pair){
-        console.log(magic(pair[0], pair[1]));
+var canTransition = function (a, b) {
+    var differences = 0;
+    _.each(a, function (l, i) {
+        if (l !== b[i]) {
+            differences++;
+        }
     });
+    return differences <= 1;
 };
 
 askInput()
