@@ -16,18 +16,10 @@
 	"buffers":
 	[
 		{
-			"file": "test4/test4.js",
+			"file": "test5/test5.js",
 			"settings":
 			{
-				"buffer_size": 1100,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "test4/package.json",
-			"settings":
-			{
-				"buffer_size": 367,
+				"buffer_size": 1501,
 				"line_ending": "Unix"
 			}
 		}
@@ -112,6 +104,13 @@
 	},
 	"file_history":
 	[
+		"/home/manutenfruits/workspace/tuenti/test4/test4.js",
+		"/home/manutenfruits/workspace/tuenti/test5/input",
+		"/home/manutenfruits/workspace/tuenti/test5/package.json",
+		"/home/manutenfruits/workspace/tuenti/test4/dijkstra/graph.js",
+		"/home/manutenfruits/workspace/tuenti/test4/package.json",
+		"/home/manutenfruits/workspace/tuenti/test5/test4.tar.gz",
+		"/home/manutenfruits/workspace/tuenti/test4/test_challenge",
 		"/home/manutenfruits/workspace/tuenti/test4/input",
 		"/home/manutenfruits/workspace/tuenti/test3/test_challenge",
 		"/home/manutenfruits/workspace/tuenti/test4/test3.tar.gz",
@@ -198,6 +197,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"x",
+			"                \n",
+			"c:",
+			"c",
+			"C",
+			"c",
+			"a",
+			"b",
+			"reachable",
+			"all",
 			"in",
 			"',",
 			"0",
@@ -315,11 +324,7 @@
 			"css",
 			"bootstra",
 			"	deleted:    ",
-			"public",
-			"	deleted:    ",
-			"TODO",
-			"parthay",
-			"$routeProvider"
+			"public"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -348,19 +353,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "test4/test4.js",
+					"file": "test5/test5.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1100,
+						"buffer_size": 1501,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1013,
-								1013
+								740,
+								740
 							]
 						],
 						"settings":
@@ -371,47 +376,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 78.0,
+						"translation.y": 273.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "test4/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 367,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								367,
-								367
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Monokai.tmTheme",
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -434,18 +402,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
